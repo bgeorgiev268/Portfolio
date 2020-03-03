@@ -94,7 +94,7 @@ header .navbar ul li a:hover::before {
 }
 .home {
   min-height: 100vh;
-  background-image: url("images/home-bg.jpg");
+  background-image: url("./images/C55C17A5-3789-4F94-91F1-9E774B712F4D_1_105_c.jpeg");
   background-size: cover;
   background-position: center;
   float: left;
@@ -112,7 +112,7 @@ header .navbar ul li a:hover::before {
   width: 100%;
   z-index: 1;
   background-color: #000000;
-  opacity: 0.7;
+  opacity: 0.2;
 }
 
 .home .home-text {
@@ -271,7 +271,7 @@ h2.title::before {
 
 /*Service Section*/
 
-.services {
+/* .services {
   float: left;
   width: 100%;
   padding: 80px 0px;
@@ -330,7 +330,7 @@ h2.title::before {
   letter-spacing: 0.5px;
   text-align: center;
   font-weight: 400;
-}
+} */
 
 /*Skills section*/
 
@@ -450,7 +450,7 @@ h2.title::before {
 
 /*Team Section*/
 
-.team {
+/* .team {
   float: left;
   width: 100%;
   padding: 80px 0px;
@@ -505,11 +505,11 @@ h2.title::before {
 }
 .team .team-content .card .box img {
   width: 100%;
-}
+} */
 
 /*Blog news section*/
 
-.blog {
+/* .blog {
   float: left;
   width: 100%;
   padding: 80px 0px;
@@ -574,7 +574,7 @@ h2.title::before {
   font-weight: 400;
   padding: 0px 15px 15px;
   margin: 0px;
-}
+} */
 
 /*Contact Section*/
 
