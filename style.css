@@ -395,40 +395,26 @@ h2.title::before {
   padding: 80px 15px;
   background-color: #353535;
 }
-
-/*Footer Section*/
-
-footer {
-  float: left;
-  width: 100%;
-  background-color: #292929;
-  padding: 50px 0px;
-}
-
-footer .footer-content {
-  float: left;
-  width: 100%;
-}
-footer .social-links {
+.contact .social-links {
   float: left;
   width: 100%;
   text-align: center;
   border-top: 1px solid #353535;
   padding-top: 15px;
 }
-footer .social-links ul {
+.contact .social-links ul {
   padding: 0;
   list-style: none;
   margin: 0;
 }
-footer .social-links ul li {
+.contact .social-links ul li {
   display: inline;
 }
-footer .social-links ul li a {
+.contact .social-links ul li a {
   display: inline-block;
   padding: 15px 15px;
 }
-footer .social-links ul li a span {
+.contact .social-links ul li a span {
   display: inline-block;
   height: 40px;
   width: 40px;
@@ -440,73 +426,11 @@ footer .social-links ul li a span {
   font-size: 16px;
   transition: all 0.5s ease;
 }
-footer .social-links ul li a span:hover {
+.contact .social-links ul li a span:hover {
   background-color: #f3971b;
   color: #ffffff;
 }
-footer .footer-content .box {
-  width: 33.33%;
-  float: left;
-  padding: 15px;
-  text-align: center;
-}
-footer .footer-content .box .icon span {
-  color: #f3971b;
-  font-size: 30px;
-}
-footer .footer-content .box h4 {
-  font-size: 16px;
-  color: #ffffff;
-  margin: 0;
-  font-weight: 600;
-  text-transform: uppercase;
-  padding: 20px 0 0px;
-}
-footer .footer-content .box p {
-  color: #c2c0c3;
-  font-size: 16px;
-  line-height: 25px;
-  letter-spacing: 0.5px;
 
-  font-weight: 400;
-  padding: 10px 0;
-  margin: 0px;
-}
-
-.trigger-main {
-  position: absolute;
-  top: 15px;
-  right: 0px;
-  display: none;
-}
-.trigger-main a {
-  display: inline-block;
-  position: relative;
-  z-index: 210;
-}
-.trigger-main a span {
-  display: block;
-  height: 2px;
-  width: 30px;
-  background-color: #ffffff;
-  margin-bottom: 8px;
-  transition: transform 0.5s ease;
-  -webkit-transition: transform 0.5s ease;
-}
-.trigger-main a span:nth-child(1) {
-  transform-origin: left top;
-}
-.trigger-main a span:nth-child(2) {
-  transform-origin: left bottom;
-}
-.trigger-main a.active span:nth-child(1) {
-  -webkit-transform: rotate(45deg) translateY(-7px);
-  transform: rotate(45deg) translateY(-7px);
-}
-.trigger-main a.active span:nth-child(2) {
-  -webkit-transform: rotate(-45deg) translateY(7px);
-  transform: rotate(-45deg) translateY(7px);
-}
 /*Responsive*/
 
 @media (max-width: 991px) {
