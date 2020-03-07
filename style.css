@@ -94,7 +94,7 @@ header .navbar ul li a:hover::before {
 }
 .home {
   min-height: 100vh;
-  background-image: url("./images/C55C17A5-3789-4F94-91F1-9E774B712F4D_1_105_c.jpeg");
+  background-image: url("./images/goldengate.jpg");
   background-size: cover;
   background-position: center;
   float: left;
@@ -381,7 +381,7 @@ h2.title::before {
 .portfolio .portfolio-content .card .box h4 {
   margin: 0;
   padding: 5px 0px 25px;
-  color: #f3971b;
+  /* color: #f3971b; */
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
