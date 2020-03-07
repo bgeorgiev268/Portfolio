@@ -350,6 +350,12 @@ h2.title::before {
   padding: 15px;
   position: relative;
 }
+
+.portfolio .portfolio-content .card .box img{
+  height: 230px;
+  width: 230px;
+}
+
 .portfolio .portfolio-content .card .box::before {
   content: "";
   position: absolute;
