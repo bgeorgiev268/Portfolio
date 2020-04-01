@@ -269,7 +269,6 @@ h2.title::before {
   background-color: #f3971b;
 }
 
-
 /*Skills section*/
 
 .skills {
@@ -332,6 +331,8 @@ h2.title::before {
   width: 100%;
   padding: 80px 0px;
   background-color: #292929;
+  text-align: center;
+  align-content: center;
 }
 
 .portfolio .portfolio-content {
@@ -351,7 +352,7 @@ h2.title::before {
   position: relative;
 }
 
-.portfolio .portfolio-content .card .box img{
+.portfolio .portfolio-content .card .box img {
   height: 230px;
   width: 230px;
 }
@@ -386,14 +387,13 @@ h2.title::before {
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
-.portfolio .portfolio-content .card .box h4 a{
+.portfolio .portfolio-content .card .box h4 a {
   color: #f3971b;
 }
 .portfolio .portfolio-content .card .box img {
   width: 100%;
   display: block;
 }
-
 
 /*Contact Section*/
 
